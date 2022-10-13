@@ -1,0 +1,197 @@
+#linear{
+    background: linear-gradient(to right,red,green,greenyellow,yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+/* h1 span{
+    background-color: rgb(118, 175, 118);
+} */
+.box1{
+    height: 80px;
+    width: 1000px;
+    border: 7px solid red;
+    border-radius: 10px;
+    background-color: rgb(96, 207, 207);
+    margin: 0px auto;
+   
+    
+}
+.box1 ul{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 417px;
+ }
+.container-box{
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 22px;
+    margin-top: 13px;
+    /* height: 160px; */
+    margin-left: 0;
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+ /* .container{
+       display: flex;
+        justify-content: space-evenly;
+ } */
+
+ /* .box{
+    width: 551px;
+ } */
+ .box-4{
+    grid-column: 2/3;
+    margin-top: 0px;
+    margin-bottom:4px;
+ }
+.box h3{
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 0px 22px;
+    margin-top:0px;
+    /* padding-left: 6px; */
+    background-color: aqua;
+    text-align: center;
+}
+/* .box2{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.box-2{
+    margin: 0px auto;
+    width: 509px;
+   /* margin-left: 10px;*/
+   /* margin-left: 30px; */
+
+}
+.box-2 h3{
+    border: 3px solid green;
+    border-radius: 5px;
+   /* margin:20px;*/
+   /* margin-left: 26px; */
+    margin-top:0px;
+    padding-left: 6px;
+    background-color: aqua;
+   
+}
+.perform{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    background: linear-gradient(to right, red,yellow,red);
+    height: 40px;
+}
+.names{
+    height: 300px;
+    border: 3px solid rgb(2, 106, 2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: radial-gradient(royalblue 70%,green);
+}
+.name{
+    height: 150px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    background-color: yellow;
+    
+}
+.name h3{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+/* #red-box{
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 50px;
+} */
+
+
+
+.grid-container{
+      display: grid;
+      border: 2px solid green;
+      margin-top: 20px;
+      color: white;
+      grid-template-columns: 3fr 3fr 3fr 1fr;
+}
+.grid-item1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    grid-column: 1 / 5;
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+.grid-item1 h1{
+    margin-top: 0px;
+}
+
+.grid-item2{
+      background-color: rgb(147, 217, 41);
+      grid-column: 1 / 2;
+      text-align: center;
+      font-weight: bold;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      /* width: 500px; */
+}
+.grid-item3{
+       background-color: rgb(80, 91, 247);
+       grid-column: 2/3;
+       margin-right: 20px;
+       margin-bottom: 20px;
+       font-weight: bold;
+}
+.grid-item4{
+    background-color: blue;
+    grid-column:3/4;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.grid-item6
+{
+    background-color: orange;
+    grid-row: 3;
+    grid-column: 1/4;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 193px;
+    
+}
+.grid-item5{
+    background-color: black;
+    grid-row: 2/span 4 ;
+    grid-column: 4/5;
+    margin-bottom: 20px;
+   
+}
+.grid-item5 ol li{
+    font-size: 21px;
+}
+.grid-item7{
+    background-color: cyan;
+    grid-column: 1/5;
+    color: black;
+    text-align: center;
+    height: 42px;
+}
+.grid-item7 h1{
+    margin: 0px;
+}
+
+
+
+/* @media only screen and (max-width:500px) and (min-width:300px){
+    .container-box{
+    display:block;
+    background-color:green ;
+    }
+} */
