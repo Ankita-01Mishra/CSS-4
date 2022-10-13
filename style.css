@@ -163,14 +163,16 @@
     grid-column: 1/4;
     margin-bottom: 20px;
     margin-right: 20px;
-    height: 193px;
+    /* height: 193px; */
+    padding-bottom: 62px;
+    padding-top: 0px;
     
 }
 .grid-item5{
     background-color: black;
     grid-row: 2/span 4 ;
     grid-column: 4/5;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
    
 }
 .grid-item5 ol li{
